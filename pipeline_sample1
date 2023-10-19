@@ -1,0 +1,21 @@
+pipeline{
+    agent any
+    stages{
+        stage ('Build'){
+            steps {
+                echo "Test is done"
+            }
+        }
+        stage ('Build'){
+            steps {
+                echo "Build done"
+            }
+        }
+        steage ('Deploy'){
+            steps {
+                echo "Deploy done"
+            }
+        }
+    }
+
+}
